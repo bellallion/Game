@@ -10,18 +10,6 @@ public class Situation implements Serializable{
     int[] dR, dH, dM;
     Student student;
     public Situation(String subject, String text, String var1, String var2, String var3, int variants, int[] dR,int[] dH,int[] dM, Student student){
-//                this.dR = new int[dR.length];
-//                for(int i = 0; i < dR.length; i++){
-//                    this.dR[i] = dR[i];
-//                }
-//                this.dH = new int[dH.length];
-//                for(int i = 0; i < dH.length; i++){
-//                    this.dH[i] = dH[i];
-//                }
-//                this.dM = new int[dM.length];
-//                for(int i = 0; i < dM.length; i++){
-//                    this.dM[i] = dM[i];
-//                }
         this.student = student;
         this.dR = dR;
         this.dH = dH;
